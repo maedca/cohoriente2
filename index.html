@@ -461,6 +461,8 @@
                     <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
                 </div>
             </div>
+            <div id="afiliados">
+            <div class="row">
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-lg-6">
@@ -481,7 +483,7 @@
             <div class="col-lg-6">
               <div class="row">
                 <div class="col-lg-6">
-                  <img src="img/socios/hospital_piedecuesta.jpg" alt="" class="img-rounded" height="150" width=""/>
+                  <img src="img/socios/centro_de_salud_san_cayetano.jpg" alt="" class="img-rounded" height="150" width=""/>
 
                 </div>
                 <div class="col-lg-6">
@@ -491,6 +493,42 @@
                 </div>
               </div>
         </div>
+      </div><!--fin fila de -->
+
+      <div class="row" style="margin-top:20px;">
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="img/socios/hospital_piedecuesta.jpg" alt="" class="img-rounded" height="150" width=""/>
+
+          </div>
+          <div class="col-lg-6">
+            <p>hospital local pie de cuesta</p>
+            <p>Gte E.S.E Pablo Caseres Zambrano <span class="label label-success">NIT 900.066.345-4 </span>&nbsp  <span class="label label-default">CC 91.493.839</span></p>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="img/socios/centro_de_salud_san_cayetano.jpg" alt="" class="img-rounded" height="150" width=""/>
+
+          </div>
+          <div class="col-lg-6">
+            <p>hospital local pie de cuesta</p>
+            <p>Gte E.S.E Pablo Caseres Zambrano <span class="label label-success">NIT 900.066.345-4 </span>&nbsp  <span class="label label-default">CC 91.493.839</span></p>
+
+          </div>
+        </div>
+  </div>
+</div>
+
+</div>
 
             </div>
 
@@ -623,9 +661,9 @@
 });
 
 $(document).ready(function(){
-
+  $('#afiliados').hide();
   $('#muestra').click(function(){
-    $('#render').load('afiliarse.html');
+    $('#afiliados').toggle('fast');
   });
 });
 
